@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="facecomparecrms">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="aws-java-sdk-cloudtrail-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cloudtrail-1.11.104/aws-java-sdk-cloudtrail-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-marketplacemeteringservice-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-marketplacemeteringservice-1.11.104/aws-java-sdk-marketplacemeteringservice-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javaee-api-7.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javaee-api-7.0/javaee-api-7.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-dataformat-cbor-2.6.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-dataformat-cbor-2.6.6/jackson-dataformat-cbor-2.6.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cognitosync-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cognitosync-1.11.104/aws-java-sdk-cognitosync-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-ecr-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-ecr-1.11.104/aws-java-sdk-ecr-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-inspector-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-inspector-1.11.104/aws-java-sdk-inspector-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-servicecatalog-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-servicecatalog-1.11.104/aws-java-sdk-servicecatalog-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-devicefarm-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-devicefarm-1.11.104/aws-java-sdk-devicefarm-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient-4.5.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient-4.5.2/httpclient-4.5.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-iam-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-iam-1.11.104/aws-java-sdk-iam-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-ecs-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-ecs-1.11.104/aws-java-sdk-ecs-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jmespath-java-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jmespath-java-1.11.104/jmespath-java-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cognitoidp-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cognitoidp-1.11.104/aws-java-sdk-cognitoidp-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-codec-1.9/commons-codec-1.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-sts-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-sts-1.11.104/aws-java-sdk-sts-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-emr-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-emr-1.11.104/aws-java-sdk-emr-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/joda-time-2.8.1/joda-time-2.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-s3-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-s3-1.11.104/aws-java-sdk-s3-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-support-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-support-1.11.104/aws-java-sdk-support-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-codecommit-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-codecommit-1.11.104/aws-java-sdk-codecommit-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-acm-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-acm-1.11.104/aws-java-sdk-acm-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-budgets-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-budgets-1.11.104/aws-java-sdk-budgets-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-events-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-events-1.11.104/aws-java-sdk-events-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation-1.1/activation-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-datapipeline-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-datapipeline-1.11.104/aws-java-sdk-datapipeline-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-sns-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-sns-1.11.104/aws-java-sdk-sns-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-models-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-models-1.11.104/aws-java-sdk-models-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-directconnect-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-directconnect-1.11.104/aws-java-sdk-directconnect-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-kms-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-kms-1.11.104/aws-java-sdk-kms-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-workspaces-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-workspaces-1.11.104/aws-java-sdk-workspaces-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-importexport-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-importexport-1.11.104/aws-java-sdk-importexport-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-glacier-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-glacier-1.11.104/aws-java-sdk-glacier-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cloudwatchmetrics-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cloudwatchmetrics-1.11.104/aws-java-sdk-cloudwatchmetrics-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-ses-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-ses-1.11.104/aws-java-sdk-ses-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-elasticloadbalancing-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-elasticloadbalancing-1.11.104/aws-java-sdk-elasticloadbalancing-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-marketplacecommerceanalytics-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-marketplacecommerceanalytics-1.11.104/aws-java-sdk-marketplacecommerceanalytics-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-ssm-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-ssm-1.11.104/aws-java-sdk-ssm-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-elastictranscoder-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-elastictranscoder-1.11.104/aws-java-sdk-elastictranscoder-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-elasticsearch-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-elasticsearch-1.11.104/aws-java-sdk-elasticsearch-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-directory-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-directory-1.11.104/aws-java-sdk-directory-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ion-java-1.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ion-java-1.0.2/ion-java-1.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-dynamodb-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-dynamodb-1.11.104/aws-java-sdk-dynamodb-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-redshift-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-redshift-1.11.104/aws-java-sdk-redshift-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-machinelearning-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-machinelearning-1.11.104/aws-java-sdk-machinelearning-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.3/commons-logging-1.1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-storagegateway-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-storagegateway-1.11.104/aws-java-sdk-storagegateway-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-config-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-config-1.11.104/aws-java-sdk-config-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cloudfront-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cloudfront-1.11.104/aws-java-sdk-cloudfront-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-elasticbeanstalk-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-elasticbeanstalk-1.11.104/aws-java-sdk-elasticbeanstalk-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-discovery-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-discovery-1.11.104/aws-java-sdk-discovery-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-autoscaling-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-autoscaling-1.11.104/aws-java-sdk-autoscaling-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-gamelift-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-gamelift-1.11.104/aws-java-sdk-gamelift-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-opsworks-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-opsworks-1.11.104/aws-java-sdk-opsworks-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-codedeploy-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-codedeploy-1.11.104/aws-java-sdk-codedeploy-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-simpleworkflow-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-simpleworkflow-1.11.104/aws-java-sdk-simpleworkflow-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-lambda-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-lambda-1.11.104/aws-java-sdk-lambda-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-route53-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-route53-1.11.104/aws-java-sdk-route53-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-elasticloadbalancingv2-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-elasticloadbalancingv2-1.11.104/aws-java-sdk-elasticloadbalancingv2-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-1.11.62.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-1.11.62/aws-java-sdk-1.11.62">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-kinesis-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-kinesis-1.11.104/aws-java-sdk-kinesis-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-codepipeline-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-codepipeline-1.11.104/aws-java-sdk-codepipeline-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-dms-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-dms-1.11.104/aws-java-sdk-dms-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-swf-libraries-1.11.22.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-swf-libraries-1.11.22/aws-java-sdk-swf-libraries-1.11.22">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-snowball-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-snowball-1.11.104/aws-java-sdk-snowball-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore-4.4.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpcore-4.4.4/httpcore-4.4.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.6.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-core-2.6.6/jackson-core-2.6.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-waf-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-waf-1.11.104/aws-java-sdk-waf-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-api-gateway-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-api-gateway-1.11.104/aws-java-sdk-api-gateway-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-ec2-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-ec2-1.11.104/aws-java-sdk-ec2-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cloudhsm-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cloudhsm-1.11.104/aws-java-sdk-cloudhsm-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cloudwatch-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cloudwatch-1.11.104/aws-java-sdk-cloudwatch-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-simpledb-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-simpledb-1.11.104/aws-java-sdk-simpledb-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-applicationautoscaling-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-applicationautoscaling-1.11.104/aws-java-sdk-applicationautoscaling-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-core-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-core-1.11.104/aws-java-sdk-core-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.6.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.6.6/jackson-databind-2.6.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-sqs-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-sqs-1.11.104/aws-java-sdk-sqs-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-lightsail-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-lightsail-1.11.104/aws-java-sdk-lightsail-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-elasticache-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-elasticache-1.11.104/aws-java-sdk-elasticache-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cloudformation-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cloudformation-1.11.104/aws-java-sdk-cloudformation-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cloudsearch-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cloudsearch-1.11.104/aws-java-sdk-cloudsearch-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.6.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-annotations-2.6.0/jackson-annotations-2.6.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-polly-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-polly-1.11.104/aws-java-sdk-polly-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-logs-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-logs-1.11.104/aws-java-sdk-logs-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail-1.5.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.mail-1.5.0/javax.mail-1.5.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-iot-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-iot-1.11.104/aws-java-sdk-iot-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-efs-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-efs-1.11.104/aws-java-sdk-efs-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-servermigration-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-servermigration-1.11.104/aws-java-sdk-servermigration-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-rekognition-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-rekognition-1.11.104/aws-java-sdk-rekognition-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-cognitoidentity-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-cognitoidentity-1.11.104/aws-java-sdk-cognitoidentity-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aws-java-sdk-rds-1.11.104.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aws-java-sdk-rds-1.11.104/aws-java-sdk-rds-1.11.104">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="facecomparecrms"/>
+        <property name="java-output-path" value="/facecomparecrms/build/classes"/>
+    </wb-module>
+</project-modules>
