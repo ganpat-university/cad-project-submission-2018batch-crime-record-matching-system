@@ -1,0 +1,55 @@
+{% extends 'Home.html' %}
+
+
+{% block title %}Criminal List{% endblock %}
+{% block content %}
+<form name='filterform' method='get'>
+    {{myFilter.form}}
+    <input type="submit" value="Submit">
+</form>
+
+{% if records %}
+    <ul>
+    {% for record in records %}
+        <li><a href="/polls/{{ record.c_name }}/ind_criminal">
+            <img src="https://crmsfc1.s3.amazonaws.com/{{record.c_photo}}" width="120"/>
+            
+        </a>
+    <p>name: {{record.c_name}}
+    
+        <p>Hair Color: {{record.c_hair_color}}
+            
+            <form action='compare_faces' method="POST">
+                {% csrf_token %}
+                <input type="hidden" name="source_file" value="{{record.c_photo}}"> 
+            <p> 
+                <input type='submit' value="Submit"> </p>
+        </form>
+    </li>
+        
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No records are available for this Filter.</p>
+{% endif %}
+<!-- <script>
+
+    var auto_refresh = setInterval(
+    function()
+    {
+    submitform();
+    }, 10000);
+
+    function submitform()
+    {
+
+      document.filterform.submit();
+    }
+    </script> -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, options);
+  });
+    </script>
+{% endblock %}

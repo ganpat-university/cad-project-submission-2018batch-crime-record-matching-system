@@ -1,0 +1,11 @@
+{% extends 'Home.html' %}
+{% block content %}
+
+{% block title %}Crime report{% endblock %}
+<form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_ul }}
+    <input type="submit" value="Submit">
+</form>
+
+{% endblock %}

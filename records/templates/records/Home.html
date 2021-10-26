@@ -1,0 +1,85 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <style>
+         select {
+             display: contents;
+}   
+         </style>
+  <meta charset="utf-8">
+  <title>{% block title %}Crime record management system{% endblock %}</title>
+</head>
+<body>
+  <main>
+      
+      <h1>Crime record matching system</h1>
+      
+      <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+      }
+      </style>
+      <style> 
+        input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+        }
+        </style>
+        {% if user.is_authenticated %}
+            <p style="text-align: right;font-size: 1cm;">Hi {{ user.username }}!</p>
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a  href="testimg_form">Compare Image</a></li>
+                <li><a href="criminal_form">Add Criminals</a></li>
+                <li><a href="criminal">View Criminals</a></li>
+                <li><a href="FIRform">REPORT FIR</a></li>
+                <li><a href="../admin">Admin</a></li>
+                <li style="float: right;"><a href="{% url 'logout' %}">Log Out</a></li>
+              </ul>
+            {% else %}
+            <p style="text-align: right;font-size: 1cm;">You are not logged in</p>
+            <ul>
+        <li><a class="active" href="testimg_form">Compare Image</a></li>
+        <li><a href="criminal_form">Add Criminals</a></li>
+        <li><a href="criminal">View Criminals</a></li>
+        <li><a href="FIRform">REPORT FIR</a></li>
+        <li style="float: right;"><a  href="{% url 'login' %}">Log In</a></li>
+      </ul>
+      {% endif %}
+
+    {% block content1 %}
+    {% endblock %}
+  </main>
+</body>
+</html>
